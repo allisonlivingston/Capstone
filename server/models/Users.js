@@ -21,16 +21,12 @@ Users.relationMappings = {
       to: 'activities.activity_id'
     }
   },
-  logs: {
+  activity_logs: {
     relation: Model.HasManyRelation,
     modelClass: __dirname + '/ActivityLog',
     join: {
       from: 'users.user_id',
       to: 'activity_log.user_id'
-      // through: {
-      //   from: 'activity_log.user_id',
-      //   to: ''
-      // }
     }
   }
 }
