@@ -12,7 +12,7 @@
             </div>
           </v-card-title>
           <v-card-actions>
-            <v-btn left light class="secondary" :to="{ name: 'Stats', params: { id: players.user_id } }">View Stats</v-btn>
+            <v-btn light class="secondary" :to="{ name: 'Stats', params: { id: players.user_id } }">Compare Stats</v-btn>
           </v-card-actions>
         </v-card>
       </v-flex>
@@ -46,6 +46,6 @@ export default {
 
 <style lang="css">
   .player-card {
-    padding-top: 10px;
+    /* margin-top: 10px; */
   }
 </style>

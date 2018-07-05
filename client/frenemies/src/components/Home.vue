@@ -2,7 +2,7 @@
   <v-layout text-xs-center column justify-end>
     <v-container>
       <v-flex>
-        <h1>Frenemies</h1>
+        <h1 class="frenemies">Frenemies</h1>
       </v-flex>
     </v-container>
     <v-container>
@@ -21,11 +21,14 @@ export default {
 </script>
 
 <style scoped>
-  h1 {
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+  .frenemies {
     display: flex;
     justify-content: center;
-    margin-top: 20vh;
-    font-size: 16vw;
+    margin-top: 18vh;
+    font-family: 'Sofia', cursive!important;
+    text-shadow: 1px 1px 5px pink;
+    font-size: 18vw;
     letter-spacing: 1vw;
   }
 </style>

@@ -5,10 +5,10 @@
         <v-card class="player-card">
           <div class="text-xs-center">
             <div>
-              <h1>Welcome back, Toby!</h1>
+              <h1 class="welcome">Welcome back, Toby!</h1>
               <img src="../toby.jpg"/>
-              <h3>You have 33 wins!</h3>
-              <v-btn class="secondary" light medium :to="{ name: 'MyStats' }">Check Out Your Stats</v-btn>
+              <h3 class="mere-wins">You have 33 wins!</h3>
+              <v-btn class="secondary" light large :to="{ name: 'MyStats' }">Check Out Your Stats</v-btn>
             </div>
           </div>
         </v-card>

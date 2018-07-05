@@ -10,8 +10,8 @@ import colors from 'vuetify/es5/util/colors'
 Vue.use(Vuetify, {
   theme: {
     primary: '#3f51b5',
-    secondary: colors.teal.accent2,
-    accent: '#7C4DFF',
+    secondary: '#32DCBB',
+    accent: '#6F88D1',
     error: colors.pink.darken1
   }
 })
